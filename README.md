@@ -1,41 +1,23 @@
 <p align="center">
-<img width="459" alt="notify" src="https://raw.githubusercontent.com/labsbots/androlabs/main/img/androlabs.png">
+<img width="459" alt="notify" src="https://raw.githubusercontent.com/labsbots/FACELABS/main/img/facelabs.png">
 
-<h4 align="center">Mobile Application Vulnerability Scanner</h4>
+<h4 align="center">Mass Facebook Account Checker 2022</h4>
 <p align="center">
   <a href="https://twitter.com/labsbots">
   <img src="https://img.shields.io/badge/Twitter-%40labsbots-blue.svg">
   </a>
 </p>
 
-# androlabs.sh
+# facelabs.sh
 
-This is a shell script to perform static analysis on mobile applications. Currently it only works for android apk files.
-What makes this tool different from all the other tools that do this? My goal with this project is to actually exploit things.
-Often you find static analysis tools point to things and say **VULNERABLE!** and the user is left to figure out why. Or worst its a 
-false positive. 
+Ini adalah script php untuk melakukan analisis login akun validator pada aplikasi facebook. alat ini akan secara otomatis memeriksa setiap ribuan akun sekaligus dalam satu proses permintaan server dan memeriksa akun yang valid dan akun yang tidak valid.
 
 This tool has two options currently:
-  - -v verbose = Show me why you think its broken (useful for fixing and reporting)
-  - -e exploit = Show me how to exploit this so called broken thing. Or show me how to manually check if it is indeed broken. I try
-  provide actual commands that can be cut and pasted into the terminal verbatim to demonstrate risk.
-
+Automatic use this tool options :
+  - php facelabs.php acc.txt
 
 ## Required Dependencies
 ```
-apkinfo       # sudo apt-get install apkinfo
-d2j-dex2jar   # sudo apt-get install openjdk-7-jre
-apktool       # https://ibotpeaches.github.io/Apktool/install/
+brew install php
+brew install git -y
 ```
-
-## Current Security Checks
-
-1. Insufficient Certificate Validation -- partial check
-2. Application Logging
-3. Backups Allowed 
-4. Snapshot Allowed
-6. Cleartext Allowed
-7. Debugging Enabled
-8. Hard codded *.pem files
-9. App built with flutter
-10. Provides examples on how to check app, device storage issues
