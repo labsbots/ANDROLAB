@@ -1,5 +1,5 @@
 <p align="center">
-<img width="459" alt="notify" src="https://raw.githubusercontent.com/labsbots/FACELABS/main/img/facelabs.png">
+<img width="459" alt="notify" src="https://raw.githubusercontent.com/labsbots/FACELABS/main/img/facelabs.png?token=GHSAT0AAAAAABTE64OOBWCIFZDTVE3OBM5CYSMZ53Q">
 
 <h4 align="center">Mass Facebook Account Checker 2022</h4>
 <p align="center">
